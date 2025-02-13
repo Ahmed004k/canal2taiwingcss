@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <title>Document</title>
+    <style type="text/tailwindcss">
+        @theme {
+                --color-text:#000E01;
+                --lien-nav-color: #79AC78;
+                --color-primary: #618264;
+                --color-secondary: #F7F7F7;  
+                --color-titre: #443434;   
+        }
+    </style>
+</head>
+<body  class="p-0 m-0 b-0">
+ <header>
+    <nav class=" lg:flex  mx-6 lg:justify-between  lg: mt-4">
+        <a href="#"><img  class="" src="/assets/images/logo de debut.svg" alt=""></a>
+        <ul class=" lg:flex lg:gap-17 lg:p-6 lg:txt-2xl    hidden">
+            <li><a href="#">Acceuil</a></li>
+            <li><a  class=" lg:-underline-offset-2 " href="#">Actualités</a></li>
+            <li><a href="#">Programme</a></li>
+            <li><a href="#">Direct</a></li>
+            
+        </ul>
+        <button class="hidden lg:bg-primary lg:text-secondary lg:border-solid lg:w-28 lg:block lg:cursor-pointer lg:rounded-3xl lg:mx-2 font-bold"> Premium </button>
+    </nav>
+ </header>
+ <!-- PREMIERE PATIEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE -->
+  <section class="lg:flex lg:px-12 lg:gap-10">
+    <div class="lg:flex-2" >
+        <img src="/assets/images/nganou.svg" alt="nganou" class="lg:rounded-3xl">
+    </div>
+    <div= class="lg:flex-1  lg:gap-4 lg: " >
+        <h1>À LA UNE DU JOUR</h1>
+        <div  class="lg:flex  lg: lg:mt-4 gap-2 ">
+            <img class="lg:rounded-3xl " src="/assets/images/enfants1.svg" alt="">
+            <div  class="lg:flex-col ">
+            <h2  class="lg:text-base  lg:text(--color-titre) lg:font-serif  "> L’école primaire de melon dans le choc </h2>
+            <P class="lg:mt-4"> Lundi matin, le sous prefet du nyon-ekele est partie en visite dans son village natale ....</P>
+            </div>
+        </div>
+        <div class="lg:flex  lg: lg:mt-4 gap-2 ">
+            <img class="lg:rounded-3xl " src="/assets/images/police.svg" alt="">
+            <div  class="lg:flex-col ">
+            <h2  class="lg:text-base  lg:text(--color-titre) lg:font-serif  ">Manifestations pour la baisse des prix</h2>
+            <P class="lg:mt-4"> Lundi matin, le sous prefet du nyon-ekele est partie en visite dans son village natale ....</P>
+            </div>
+        </div>
+          <div class="lg:flex  lg: lg:mt-4 gap-2 ">
+            <img class="lg:rounded-3xl " src="/assets/images/yaounde.svg" alt="">
+            <div  class="lg:flex-col ">
+            <h2  class="lg:text-base  lg:text(--color-titre) lg:font-serif  ">Bientot un métro dans la capitale </h2>
+            <P class="lg:mt-4"> Lundi matin, le sous prefet du nyon-ekele est partie en visite dans son village natale ....</P>
+          </div>
+          </div>      
+   
+    </div>                      
+  </section>
+<!-- deuxieme partieeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee -->
+        <section class="lg:flex lg:justify-evenly lg:mt-20   " >
+            <div>
+                <img src="/assets/images/enfants 2.svg" alt="" class="lg:rounded-3xl w-3xs  " >
+                <h6 class="lg:text-xs lg:text-(--color-primary) lg:pl-2  "  >Mardi , 10 Janvier 2025  10:30</h6>
+                <p class="lg: w-xs lg:text-(--color-text)  lg:font-semibold  lg:font-sans lg:pl-2" >Lutte contre le travail des enfants  <br>  , l’UNESCO réagit</p>
+            </div>
+            <div>
+                <img src="/assets/images/paul biya.svg" alt="" class="lg:rounded-3xl w-3xs " >
+                <h6 class="lg:text-xs lg:text-(--color-primary) lg:pl-2  "  >Mardi , 10 Janvier 2025  10:30</h6>
+                <p  class=" lg: w-xs lg:text-(--color-text)  lg:font-semibold  lg:font-sans pl-2 ">Lutte contre le travail des enfants <br> , l’UNESCO réagit</p>
+            </div>
+            <div>
+                <img src="/assets/images/abouchou.svg " alt="" class="lg:rounded-3xl w-3xs " >
+                 <h6 class="lg:text-xs lg:text-(--color-primary) lg:pl-2  " >Mardi , 10 Janvier 2025  10:30</h6>
+                <p class="lg: w-xs lg:text-(--color-text)  lg:font-semibold  lg:font-sans pl-2 " >Lutte contre le travail des enfants  <br>, l’UNESCO réagit</p>
+            </div>
+ 
+        </section>
+        <!-- TROISEIME SECTIONNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN -->
+         <section>
+            <div class="lg:flex lg:justify-center   " >
+                <h3 class=" lg:font-semibold   md:text-4xl  lg:text-center lg:mt-20 lg:font-sans text-(--color-text)" >Suivez l’atualité en direct sur Canal 2 International</h3>
+            </div>
+            <div class="lg:flex lg:justify-center  lg:mt-20">                    
+                <iframe width="600" height="436" src="https://www.youtube.com/embed/KUTPD2G946o" title="AFFAIRE MARTINEZ ZOGO : COMPRENDRE LE DESSAISISSEMENT DU JUGE SIKATI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+         </section>
+         <!-- QUATRIEME SECTIONNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNS -->
+          <section class="lg:px-12" >
+            <div class="lg:flex lg:justify-center  ">
+                <h3 class="lg:text-4xl lg:font-semibold lg:font-sans lg:text-(--color-text) lg:py-20  lg:text-center" >Retrouvez vos programmes préférés </h3>
+            </div>
+            <div class="lg:flex gap-20  " >
+                <img  class=" lg:w-xl" src="/assets/images/canal matin.svg" alt="">
+              <div  class="lg:py-20 ">
+                <h3 class="lg:text-3xl lg:font-semibold lg:font-sans lg:text-(--color-primary)  lg:" >CANAL MATIN</h3>
+                <P class="lg:mt-4 " >Lorem ipsum dolor sit amet, consectetur adipiscing elit, <br> sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <br> Ut enim ad minim veniam, <br> quis nostrud</P>
+                <h5>Du Lundi au vendredi sur Canal 2 international</h5>
+                <div class="lg:flex lg:gap-10 lg: mt-8"   >
+                    <img src="/assets/images/icone insta.png" alt="">
+                    <img src="/assets/images/icone twitter.png" alt="">
+                    <img src="/assets/images/🦆 icon _circle facebook_ (1).png" alt="">
+                    <img src="/assets/images/icone in.png" alt="">
+                </div>
+              </div>
+                
+            </div>
+           </section> 
+          <!-- cinquieme partieeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-->
+
+          <section class="lg:flex lg:justify-between lg:mt-20   "  >
+            <div>
+                <img src="/assets/images/nous et  vous.svg"  alt=""  class="lg:rounded-3xl w-3xs ">
+                <h6 class="lg:text-xs lg:text-(--color-primary) lg:pl-2  "   >DU LUNDI AU VENDREDI</h6>
+                <p class="lg: w-xs lg:text-(--color-text)  lg:font-semibold  lg:font-sans pl-2 "  >NOUS CHEZ VOUS  </p>
+            </div>
+            <div>
+                <img src="/assets/images/le monsieur.svg" alt="" class="lg:rounded-3xl w-3xs " >
+                <h6 class="lg:text-xs lg:text-(--color-primary) lg:pl-2  "  >DU LUNDI AU VENDREDI</h6>
+                <p class="lg: w-xs lg:text-(--color-text)  lg:font-semibold  lg:font-sans pl-2 "   >NOUS CHEZ VOUS  </p>
+            </div>
+            <div>
+                <img src="/assets/images/comedies.svg" alt="" class="lg:rounded-3xl w-3xs " >
+                <h6 class="lg:text-xs lg:text-(--color-primary) lg:pl-2  " >DU LUNDI AU VENDREDI </h6>
+                <p class="lg: w-xs lg:text-(--color-text)  lg:font-semibold  lg:font-sans pl-2 "   >NOUS CHEZ VOUS  </p>
+            </div>
+          </section>
+          <!-- six sectionnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn -->
+          <section class="lg:px-12" >
+            <div class="lg:flex lg:justify-center  ">
+                <h3 class="lg:text-4xl lg:font-semibold lg:font-sans lg:text-(--color-text) lg:py-20  lg:text-center" >Retrouvez vos programmes préférés </h3>
+            </div>
+            <div class="lg:flex gap-20  " >
+              <div  class="lg:py-20 ">
+                <h3 class="lg:text-3xl lg:font-semibold lg:font-sans lg:text-(--color-primary)  lg:" > c’est Comment</h3>
+                <P class="lg:mt-4 " >Lorem ipsum dolor sit amet, consectetur adipiscing elit, <br> sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <br> Ut enim ad minim veniam, <br> quis nostrud</P>
+                <h5>Du Lundi au vendredi sur Canal 2 international</h5>
+                <div class="lg:flex lg:gap-20 lg: mt-8"   >
+                    <img src="/assets/images/icone insta.png" alt="">
+                    <img src="/assets/images/icone twitter.png" alt="">
+                    <img src="/assets/images/🦆 icon _circle facebook_ (1).png" alt="">
+                    <img src="/assets/images/icone in.png" alt="">
+                </div>
+              </div>
+              
+              <img  class=" lg:w-xl lg:rounded-3xl lg:my-4" src="/assets/images/c cmmnt.svg" alt="">
+                
+            </div>
+           </section> 
+           <!-- SEPTIEMMMEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE -->
+            <section class="lg: flex lg:flex-col lg:justify-center lg:mt-16 lg:flex-row lg:justify-stard lg:full"  >
+                <div  class="flex gap-8 lg:rotate-90 w-full lg:mt-110 lg:mn-50 flex-1 lg:ml-20 lg:-lg-64">
+                    <div class="w-2 h-12 bg-vert lg:rotate-90" ></div>
+                    <h1  class="text-3xl text-vert font-semibold font-ibm lg:text-6xl" > Espace  publicite </h1>
+                    <div class="w-2 h-12 bg-vert hidden lg:block rotate-90"  ></div>
+                </div>
+                <img src="/assets/images/avant deniere img.svg" alt=" publicite" class="w-full mt-2 lg:-ml-250 lg:hauto  lg:-mt-20 flex-2" > 
+            </section>
+            <!-- derniere sectionnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn -->
+             <section class="lg:flex lg:justify-between lg:mt-20  px-8  "   >
+                <div>
+                    <img src="/assets/images/deniere img.svg   " alt="" class="lg:rounded-3xl w-3xs " >
+                    <h6>Mardi , 10 Janvier 2025  10:30</h6>
+                    <p class="lg: w-xs lg:text-(--color-text)  lg:font-semibold  lg:font-sans pl-2 "    >The standard Lorem Ipsum passage, used since the 1500s</p>
+                </div>
+                <div>
+                    <img src="/assets/images/deniere img.svg" alt="" class="lg:rounded-3xl w-3xs " >
+                    <h6>Mardi , 10 Janvier 2025  10:30</h6>
+                    <p class="lg: w-xs lg:text-(--color-text)  lg:font-semibold  lg:font-sans pl-2 "    >The standard Lorem Ipsum passage, used since the 1500s</p>
+                </div>
+                <div>
+                    <img src="/assets/images/deniere img.svg" alt="" class="lg:rounded-3xl w-3xs " >
+                    <h6>Mardi , 10 Janvier 2025  10:30</h6>
+                    <p class="lg: w-xs lg:text-(--color-text)  lg:font-semibold  lg:font-sans pl-2 "    >The standard Lorem Ipsum passage, used since the 1500s</p>
+                </div>
+             </section>
+             <!-- finnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn -->
+              <section  class="bg-green-500  flex justify-center mt-30 ">
+                <img src="/assets/images/logi de fin.svg" alt=" " class="mt-16"  >
+              </section>
+         
+           
+    
+</body>
+</html>
